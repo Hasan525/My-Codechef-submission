@@ -17,16 +17,10 @@ int main()
 
     tc
     {
-        ll n;
-        cin>>n;
-        string s;
-        cin>>s;
-        ll ans=1;
-        for(ll i=1; i<n; i++)
-        {
-            if(s[i]!=s[i-1])
-                ans++;
-        }
-        cout<<ans/2<<endl;
+       ll n, x,y;cin>>n>>x>>y;
+       if((x+y)%2==0)
+        cout<<0<<endl;
+       else
+        cout<<1<<endl;
     }
 }
