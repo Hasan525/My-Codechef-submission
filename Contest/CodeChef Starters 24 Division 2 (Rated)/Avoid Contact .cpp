@@ -20,6 +20,8 @@ int main()
       ll x,y;cin>>x>>y;
       ll cnt=y*2;
       cnt+=(x-y);
+      if(x-y==0)
+        cnt--;
       cout<<cnt<<endl;
 
     }
